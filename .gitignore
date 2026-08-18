@@ -1,0 +1,5 @@
+# heavy verification artifacts — regenerate with: node tools/shot.mjs
+screenshots/
+# local playwright link — install with: npm install playwright
+node_modules/
+.DS_Store

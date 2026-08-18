@@ -1,0 +1,4 @@
+# GitHub Linguist — the project IS index.html; the WordPress template is a
+# byte-for-byte mirror of it and must not make the repo look like a PHP project.
+# (gitattributes patterns do not recurse into directories — hence the ** glob)
+wordpress/** linguist-vendored

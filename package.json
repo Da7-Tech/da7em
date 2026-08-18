@@ -1,0 +1,25 @@
+{
+  "name": "da7em",
+  "version": "1.0.0",
+  "description": "Da7em — a living digital practice. One HTML file, zero dependencies; playwright-based verification tools.",
+  "private": true,
+  "license": "CC-BY-4.0",
+  "type": "module",
+  "author": "Da7_Tech",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "shot": "node tools/shot.mjs",
+    "quick": "node tools/shot.mjs quick",
+    "telemetry": "node tools/shot.mjs perf",
+    "audit": "node tools/perf_audit.mjs",
+    "audit:headed": "node tools/perf_audit.mjs headed",
+    "debug:layers": "node tools/layers_debug.mjs",
+    "debug:formation": "node tools/formation_debug.mjs",
+    "og": "node tools/og_image.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}
